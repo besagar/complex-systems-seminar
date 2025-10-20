@@ -1,0 +1,32 @@
+{
+  "seminar_title": "Modern Theory of Complex Systems & Applications",
+  "timezone": "Asia/Jerusalem",
+  "contact_email": "roman.gaidarov@weizmann.ac.il",
+  "calendar_subscribe_url": "https://calendar.google.com/calendar/u/0?cid=REPLACE_WITH_CALENDAR_ID",
+  "mailing_list_url": "https://groups.google.com/g/REPLACE_WITH_GROUP_NAME",
+  "formspree_action": "https://formspree.io/f/REPLACE_WITH_YOUR_CODE",
+  "campus": "Rehovot",
+  "default_room": "Physics Lec. Room A",
+  "repo_url": "https://github.com/USERNAME/REPO",
+  "department": "Department of Complex Systems",
+  "institution": "Weizmann Institute of Science",
+  "organizers": [
+    {
+      "name": "Roma Gaidarov",
+      "role": "PhD Student",
+      "group": "Amir Group",
+      "email": "roman.gaidarov@weizmann.ac.il"
+    },
+    {
+      "name": "Pavel Litvinov", 
+      "role": "MSc Student",
+      "group": "Feinerman Group"
+    }
+  ],
+  "meeting_frequency": "biweekly",
+  "default_duration": 120,
+  "talk_duration": 90,
+  "discussion_duration": 45,
+  "academic_credit_available": true,
+  "chalkboard_format": true
+}

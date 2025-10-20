@@ -1,0 +1,84 @@
+[
+  {
+    "id": "2024-11-13-active-brownian-motion",
+    "title": "Active Brownian Motion: From Microscopic Models to Collective Behavior",
+    "speakers": ["Dr. Sarah Chen"],
+    "affiliation": "Weizmann Institute of Science, Department of Complex Systems",
+    "datetime": "2024-11-13T15:30:00+02:00",
+    "duration_min": 120,
+    "room": "Physics Lec. Room A",
+    "level": "intro",
+    "tags": ["active matter", "stochastic processes", "brownian motion"],
+    "abstract": "We begin our active matter series by exploring the foundational models of active Brownian particles. Starting from the basic stochastic differential equation for self-propelled particles, we will derive the key statistical properties including persistence length, effective diffusion, and velocity correlations. The mathematical framework will be developed from first principles, connecting microscopic particle dynamics to mesoscopic descriptions. We will examine different noise models (white vs. colored noise) and their physical interpretations in biological and synthetic active systems. The session will conclude with a discussion of experimental realizations and the transition from single-particle to collective phenomena.",
+    "references": [
+      {"label": "Romanczuk et al. (2012) - Active Brownian particles", "url": "https://doi.org/10.1140/epjst/e2012-01529-y"},
+      {"label": "Bechinger et al. (2016) - Active particles in complex environments", "url": "https://doi.org/10.1103/RevModPhys.88.045006"}
+    ]
+  },
+  {
+    "id": "2024-11-27-vicsek-model-phase-transitions",
+    "title": "The Vicsek Model: Alignment Interactions and Phase Transitions in Flocking",
+    "speakers": ["Pavel Litvinov"],
+    "affiliation": "Weizmann Institute of Science, Feinerman Group",
+    "datetime": "2024-11-27T15:30:00+02:00",
+    "duration_min": 120,
+    "room": "Physics Lec. Room A",
+    "level": "intro",
+    "tags": ["active matter", "phase transitions", "collective motion", "vicsek model"],
+    "abstract": "The Vicsek model represents a paradigmatic example of emergent collective motion arising from local alignment rules. We will develop the model from its discrete formulation, examining the interplay between alignment interactions, noise, and density effects. The mathematical analysis will focus on the order-disorder phase transition, including mean-field theory predictions and finite-size scaling. We will derive the critical exponents and discuss the role of topological defects in the ordered phase. Special attention will be given to the connection between microscopic parameters and macroscopic observables such as the polar order parameter. The session will include discussion of numerical simulation techniques and comparison with experimental observations in bacterial swarms and bird flocks.",
+    "references": [
+      {"label": "Vicsek et al. (1995) - Novel type of phase transition", "url": "https://doi.org/10.1103/PhysRevLett.75.1226"},
+      {"label": "Grégoire & Chaté (2004) - Onset of collective motion", "url": "https://doi.org/10.1103/PhysRevLett.92.025702"},
+      {"label": "Chaté et al. (2008) - Modeling collective motion", "url": "https://doi.org/10.1103/PhysRevE.77.046113"}
+    ]
+  },
+  {
+    "id": "2024-12-11-toner-tu-hydrodynamics",
+    "title": "Toner-Tu Theory: Hydrodynamic Description of Flocking Systems",
+    "speakers": ["Roma Gaidarov"],
+    "affiliation": "Weizmann Institute of Science, Amir Group",
+    "datetime": "2024-12-11T15:30:00+02:00",
+    "duration_min": 120,
+    "room": "Physics Lec. Room A",
+    "level": "advanced",
+    "tags": ["active matter", "field theory", "hydrodynamics", "toner-tu"],
+    "abstract": "We develop the continuum field theory for flocking systems following the seminal work of Toner and Tu. Starting from symmetry considerations and conservation laws, we will construct the hydrodynamic equations for density and velocity fields in active systems. The derivation will emphasize the broken rotational symmetry in the ordered phase and its consequences for the effective theory. We will examine the linear stability analysis, dispersion relations, and the emergence of long-wavelength instabilities. The mathematical framework includes gradient expansions, scaling arguments, and the identification of relevant and irrelevant operators. Special focus will be placed on the anisotropic nature of fluctuations and the violation of detailed balance in active systems.",
+    "references": [
+      {"label": "Toner & Tu (1995) - Long-range order in 2D dynamical XY model", "url": "https://doi.org/10.1103/PhysRevLett.75.4326"},
+      {"label": "Toner & Tu (1998) - Flocks, herds, and schools", "url": "https://doi.org/10.1103/PhysRevE.58.4828"}
+    ]
+  },
+  {
+    "id": "2024-10-16-replica-theory-introduction",
+    "title": "Introduction to Replica Theory: Disorder and Glassy Systems",
+    "speakers": ["Prof. Michael Adler"],
+    "affiliation": "Weizmann Institute of Science, Department of Physics",
+    "datetime": "2024-10-16T15:30:00+02:00",
+    "duration_min": 120,
+    "room": "Physics Lec. Room B",
+    "level": "advanced",
+    "tags": ["replica theory", "spin glass", "disorder", "statistical mechanics"],
+    "abstract": "This talk provides a comprehensive introduction to the replica method, one of the most powerful techniques for analyzing disordered systems. We begin with the mathematical foundation of the replica trick, examining how the logarithm of the partition function can be computed through analytical continuation. The method will be illustrated through the spherical p-spin model, demonstrating the emergence of replica symmetry breaking. We will derive the replica symmetric solution and discuss its physical interpretation in terms of free energy landscapes. The mathematical development includes saddle-point analysis, the Parisi ansatz, and the connection to mean-field theory. Applications to spin glasses, neural networks, and optimization problems will be discussed.",
+    "references": [
+      {"label": "Mézard et al. (1987) - Spin Glass Theory and Beyond", "url": "https://doi.org/10.1142/0271"},
+      {"label": "Parisi (1979) - Infinite number of order parameters", "url": "https://doi.org/10.1103/PhysRevLett.43.1754"},
+      {"label": "Sherrington & Kirkpatrick (1975) - Solvable model of spin glass", "url": "https://doi.org/10.1103/PhysRevLett.35.1792"}
+    ]
+  },
+  {
+    "id": "2024-10-02-stochastic-processes-modern",
+    "title": "Modern Aspects of Stochastic Processes: Lévy Flights and Anomalous Diffusion",
+    "speakers": ["Dr. Anna Koroleva"],
+    "affiliation": "Tel Aviv University, School of Mathematical Sciences",
+    "datetime": "2024-10-02T15:30:00+02:00",
+    "duration_min": 120,
+    "room": "Physics Lec. Room A",
+    "level": "intro",
+    "tags": ["stochastic processes", "levy flights", "anomalous diffusion", "random walks"],
+    "abstract": "We explore generalizations of classical Brownian motion to processes with heavy-tailed jump distributions and long-range correlations. The mathematical framework begins with the generalized central limit theorem and stable distributions, leading to Lévy processes and fractional Brownian motion. We will derive the fractional diffusion equation using continuous-time random walk theory and examine the connection to fractional calculus. The physical interpretation includes subdiffusive and superdiffusive regimes, with applications to biological systems, financial markets, and transport in complex media. Mathematical tools include characteristic functions, scaling relations, and first-passage time statistics. The session concludes with numerical methods for simulating anomalous diffusion processes.",
+    "references": [
+      {"label": "Metzler & Klafter (2000) - Random walk's guide to anomalous diffusion", "url": "https://doi.org/10.1016/S0370-1573(00)00070-3"},
+      {"label": "Barkai et al. (2000) - From continuous time random walks to the fractional Fokker-Planck equation", "url": "https://doi.org/10.1103/PhysRevE.61.132"}
+    ]
+  }
+]

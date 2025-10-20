@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Schedule of talks for Modern Theory of Complex Systems & Applications seminar series at Weizmann Institute">
+    <meta name="keywords" content="complex systems, seminar schedule, theoretical physics, Weizmann Institute">
+    
+    <title>Schedule | Modern Theory of Complex Systems & Applications</title>
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico">
+    <link rel="canonical" href="https://USERNAME.github.io/REPO/schedule.html">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Complex Systems Seminar</a>
+                <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+                <nav class="nav">
+                    <a href="index.html" class="nav-link">Home</a>
+                    <a href="schedule.html" class="nav-link active">Schedule</a>
+                    <a href="submit.html" class="nav-link">Become a Speaker</a>
+                    <a href="index.html#contact" class="nav-link">Contact</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="section-sm">
+            <div class="container">
+                <div class="text-center mb-xl">
+                    <h1>Seminar Schedule</h1>
+                    <p>Explore our upcoming and past talks in complex systems theory</p>
+                </div>
+
+                <!-- Search and Filters -->
+                <div class="search-filters">
+                    <div class="form-group">
+                        <input 
+                            type="text" 
+                            id="search-input" 
+                            class="form-input search-input" 
+                            placeholder="Search talks by title, speaker, or abstract..."
+                            aria-label="Search talks"
+                        >
+                    </div>
+                    
+                    <div class="filter-group">
+                        <div class="form-group">
+                            <label for="topic-filter" class="form-label">Topic</label>
+                            <select id="topic-filter" class="form-select filter-select">
+                                <option value="">All Topics</option>
+                                <option value="active matter">Active Matter</option>
+                                <option value="field theory">Field Theory</option>
+                                <option value="stochastic processes">Stochastic Processes</option>
+                                <option value="networks">Complex Networks</option>
+                                <option value="replica theory">Replica Theory</option>
+                                <option value="continuum mechanics">Continuum Mechanics</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="level-filter" class="form-label">Level</label>
+                            <select id="level-filter" class="form-select filter-select">
+                                <option value="">All Levels</option>
+                                <option value="intro">Introductory</option>
+                                <option value="advanced">Advanced</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="timezone-toggle" class="form-label">Timezone</label>
+                            <select id="timezone-toggle" class="form-select filter-select">
+                                <option value="Asia/Jerusalem">Israel Time (IST/IDT)</option>
+                                <option value="local">Local Time</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Loading State -->
+                <div id="loading-state" class="text-center">
+                    <div class="spinner"></div>
+                    <p>Loading schedule...</p>
+                </div>
+
+                <!-- Upcoming Talks -->
+                <div id="upcoming-section" class="hidden">
+                    <h2 class="mb-lg">Upcoming Talks</h2>
+                    <div id="upcoming-talks" class="grid grid-2 mb-xl">
+                        <!-- Upcoming talks will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- Past Talks -->
+                <div id="past-section" class="hidden">
+                    <h2 class="mb-lg">Past Talks</h2>
+                    <div id="past-talks" class="grid grid-2">
+                        <!-- Past talks will be populated by JavaScript -->
+                    </div>
+                </div>
+
+                <!-- No Results -->
+                <div id="no-results" class="text-center hidden">
+                    <h3>No talks found</h3>
+                    <p>Try adjusting your search or filter criteria</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 Modern Theory of Complex Systems & Applications. 
+            Hosted at <a href="https://www.weizmann.ac.il">Weizmann Institute of Science</a>.</p>
+        </div>
+    </footer>
+
+    <!-- Event Card Template -->
+    <template id="event-card-template">
+        <article class="card event-card" itemscope itemtype="https://schema.org/Event">
+            <div class="event-datetime" itemprop="startDate">
+                <time class="event-time"></time>
+            </div>
+            
+            <h3 class="card-title" itemprop="name">
+                <span class="event-title"></span>
+            </h3>
+            
+            <div class="card-meta">
+                <div class="event-speakers" itemprop="performer" itemscope itemtype="https://schema.org/Person">
+                    <span itemprop="name"></span>
+                </div>
+                <div class="event-affiliation" itemprop="organizer" itemscope itemtype="https://schema.org/Organization">
+                    <span itemprop="name"></span>
+                </div>
+                <div class="event-duration"></div>
+                <div class="event-room" itemprop="location" itemscope itemtype="https://schema.org/Place">
+                    <span itemprop="name"></span>
+                </div>
+            </div>
+            
+            <div class="card-tags event-tags">
+                <!-- Tags will be populated by JavaScript -->
+            </div>
+            
+            <div class="event-abstract" itemprop="description">
+                <p class="abstract-text"></p>
+                <button class="btn btn-outline btn-sm toggle-abstract" aria-expanded="false">
+                    Show More
+                </button>
+            </div>
+            
+            <div class="event-references hidden">
+                <h4>References</h4>
+                <ul class="references-list">
+                    <!-- References will be populated by JavaScript -->
+                </ul>
+            </div>
+            
+            <div class="event-actions">
+                <button class="btn btn-primary btn-sm add-to-calendar" data-event-id="">
+                    📅 Add to Calendar
+                </button>
+                <button class="btn btn-outline btn-sm download-ics" data-event-id="">
+                    📥 Download .ics
+                </button>
+                <button class="btn btn-outline btn-sm copy-link" data-event-id="">
+                    🔗 Copy Link
+                </button>
+            </div>
+        </article>
+    </template>
+
+    <script src="js/app.js"></script>
+    <script src="js/schedule.js"></script>
+</body>
+</html>

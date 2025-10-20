@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Disallow admin interface from search engines
+Disallow: /admin.html
+
+# Allow all other pages
+Allow: /index.html
+Allow: /schedule.html
+Allow: /submit.html
+
+# Sitemap location
+Sitemap: https://USERNAME.github.io/REPO/sitemap.xml
