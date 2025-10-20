@@ -10,4 +10,4 @@ Allow: /schedule.html
 Allow: /submit.html
 
 # Sitemap location
-Sitemap: https://USERNAME.github.io/REPO/sitemap.xml
+Sitemap: https://besagar.github.io/complex-systems-seminar/sitemap.xml

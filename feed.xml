@@ -3,8 +3,8 @@
     <channel>
         <title>Modern Theory of Complex Systems &amp; Applications</title>
         <description>A student-led chalkboard seminar series at Weizmann Institute exploring foundational theoretical methods in complex systems research</description>
-        <link>https://USERNAME.github.io/REPO/</link>
-        <atom:link href="https://USERNAME.github.io/REPO/feed.xml" rel="self" type="application/rss+xml"/>
+        <link>https://besagar.github.io/complex-systems-seminar/</link>
+        <atom:link href="https://besagar.github.io/complex-systems-seminar/feed.xml" rel="self" type="application/rss+xml"/>
         <language>en-us</language>
         <lastBuildDate>Sun, 20 Oct 2024 20:00:00 +0200</lastBuildDate>
         <managingEditor>roman.gaidarov@weizmann.ac.il (Roma Gaidarov)</managingEditor>
@@ -13,8 +13,8 @@
         <item>
             <title>Active Brownian Motion: From Microscopic Models to Collective Behavior</title>
             <description>We begin our active matter series by exploring the foundational models of active Brownian particles. Starting from the basic stochastic differential equation for self-propelled particles, we will derive the key statistical properties including persistence length, effective diffusion, and velocity correlations.</description>
-            <link>https://USERNAME.github.io/REPO/schedule.html#2024-11-13-active-brownian-motion</link>
-            <guid>https://USERNAME.github.io/REPO/schedule.html#2024-11-13-active-brownian-motion</guid>
+            <link>https://besagar.github.io/complex-systems-seminar/schedule.html#2024-11-13-active-brownian-motion</link>
+            <guid>https://besagar.github.io/complex-systems-seminar/schedule.html#2024-11-13-active-brownian-motion</guid>
             <pubDate>Wed, 13 Nov 2024 15:30:00 +0200</pubDate>
             <category>Active Matter</category>
             <category>Stochastic Processes</category>
@@ -23,8 +23,8 @@
         <item>
             <title>The Vicsek Model: Alignment Interactions and Phase Transitions in Flocking</title>
             <description>The Vicsek model represents a paradigmatic example of emergent collective motion arising from local alignment rules. We will develop the model from its discrete formulation, examining the interplay between alignment interactions, noise, and density effects.</description>
-            <link>https://USERNAME.github.io/REPO/schedule.html#2024-11-27-vicsek-model-phase-transitions</link>
-            <guid>https://USERNAME.github.io/REPO/schedule.html#2024-11-27-vicsek-model-phase-transitions</guid>
+            <link>https://besagar.github.io/complex-systems-seminar/schedule.html#2024-11-27-vicsek-model-phase-transitions</link>
+            <guid>https://besagar.github.io/complex-systems-seminar/schedule.html#2024-11-27-vicsek-model-phase-transitions</guid>
             <pubDate>Wed, 27 Nov 2024 15:30:00 +0200</pubDate>
             <category>Active Matter</category>
             <category>Phase Transitions</category>
@@ -33,8 +33,8 @@
         <item>
             <title>Toner-Tu Theory: Hydrodynamic Description of Flocking Systems</title>
             <description>We develop the continuum field theory for flocking systems following the seminal work of Toner and Tu. Starting from symmetry considerations and conservation laws, we will construct the hydrodynamic equations for density and velocity fields in active systems.</description>
-            <link>https://USERNAME.github.io/REPO/schedule.html#2024-12-11-toner-tu-hydrodynamics</link>
-            <guid>https://USERNAME.github.io/REPO/schedule.html#2024-12-11-toner-tu-hydrodynamics</guid>
+            <link>https://besagar.github.io/complex-systems-seminar/schedule.html#2024-12-11-toner-tu-hydrodynamics</link>
+            <guid>https://besagar.github.io/complex-systems-seminar/schedule.html#2024-12-11-toner-tu-hydrodynamics</guid>
             <pubDate>Wed, 11 Dec 2024 15:30:00 +0200</pubDate>
             <category>Active Matter</category>
             <category>Field Theory</category>

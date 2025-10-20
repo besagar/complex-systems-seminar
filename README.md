@@ -51,7 +51,7 @@ This seminar series aims to establish a space for serious theoretical discussion
    git add .
    git commit -m "Initial commit: Complex Systems Seminar website"
    git branch -M main
-   git remote add origin https://github.com/USERNAME/REPO.git
+   git remote add origin https://github.com/besagar/complex-systems-seminar.git
    git push -u origin main
    ```
 
@@ -63,7 +63,7 @@ This seminar series aims to establish a space for serious theoretical discussion
 
 4. **Access your site**
    ```
-   https://USERNAME.github.io/REPO/
+   https://besagar.github.io/complex-systems-seminar/
    ```
 
 ## ⚙️ Configuration
@@ -72,8 +72,8 @@ This seminar series aims to establish a space for serious theoretical discussion
 
 Replace these placeholders throughout the codebase:
 
-- `USERNAME` → Your GitHub username
-- `REPO` → Your repository name
+- ✅ `USERNAME` → `besagar` (completed)
+- ✅ `REPO` → `complex-systems-seminar` (completed)
 - `REPLACE_WITH_YOUR_CODE` → Your Formspree endpoint code
 
 ### 2. Configure Formspree (Speaker Submissions)
@@ -98,7 +98,7 @@ Edit `data/settings.json` with your information:
   "contact_email": "your.email@institution.edu",
   "calendar_subscribe_url": "https://calendar.google.com/calendar/u/0?cid=YOUR_CALENDAR_ID",
   "mailing_list_url": "https://groups.google.com/g/YOUR_GROUP",
-  "repo_url": "https://github.com/USERNAME/REPO"
+  "repo_url": "https://github.com/besagar/complex-systems-seminar"
 }
 ```
 
